@@ -18,3 +18,5 @@ $source activate ammd16env
 $mongod --config mongodb.conf
 
 $python manage.py runserver
+
+链接：https://github.com/usnistgov/MDCS
