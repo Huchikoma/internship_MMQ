@@ -1,0 +1,39 @@
+<amMaterialDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <feedstockPowder>
+        <generalInfo>
+            <materialStockID>EWI_IN625_RR_Feedstock2</materialStockID>
+            <materialStockName>EWI_IN625_RR_Feedstock for Build 2</materialStockName>
+            <materialDescription>100% Virgin material: IN625 from Gamma</materialDescription>
+            <materialStockOwner>DMC</materialStockOwner>           
+        </generalInfo>
+        <materialDefinitions>            
+            <virginProduct>
+                <productDefinition>
+                <productName>Micro-Melt 625AM</productName>
+                <vendor><vendorNameEnum>Gamma</vendorNameEnum></vendor>
+                <productID>Micro-Melt 625AM</productID>
+                <productVersion>N/A</productVersion>
+                </productDefinition>
+                <materialType>
+                    <materialEnum>NickelAlloy</materialEnum>
+                </materialType>
+                <materialName>
+                     <materialNameEnum>IN625</materialNameEnum>
+                </materialName>               
+            </virginProduct>
+        </materialDefinitions>       
+        <formula>
+	  <feedstockMaterialFormulaEnum>LAYERED</feedstockMaterialFormulaEnum>
+	</formula>
+        <constituent>
+            <materialID>DMC-Gamma-IN625-Stock 2013</materialID>
+            <quantity>
+                <description>virgin</description>
+                <unit>% of build height</unit>
+                <value>
+                    <average>100</average>
+                </value>
+            </quantity>
+        </constituent>        
+    </feedstockPowder>
+</amMaterialDB>

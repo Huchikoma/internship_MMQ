@@ -1,0 +1,63 @@
+<amMaterialDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <feedstockPowder>
+        <generalInfo>
+            <materialStockID>NIST_100-6_Feedstock8</materialStockID>
+            <materialStockName>NIST_100-6_Feedstock for Build 8</materialStockName>
+            <materialDescription>90% RM7 and 10% RM5</materialDescription>
+            <materialStockOwner>NIST</materialStockOwner> 
+            <materialQuantity>
+                <unit>millimeter</unit>
+                <value>
+                    <average>46.5</average>
+                </value>
+            </materialQuantity>
+        </generalInfo>
+        <materialDefinitions>
+            <virginProduct>
+                <productDefinition>
+                    <productName>17-4PH</productName>
+                    <vendor>
+                        <vendorNameEnum>Delta</vendorNameEnum>
+                    </vendor>
+                    <productID>9011-0038</productID>
+                </productDefinition>    
+                <materialType>
+                    <materialEnum>StainlessSteel</materialEnum>
+                </materialType>
+                <materialName>
+                    <materialNameEnum>17-4PH</materialNameEnum>
+                </materialName>
+            </virginProduct>
+        </materialDefinitions>
+        <formula>
+            <feedstockMaterialFormulaEnum>LAYERED</feedstockMaterialFormulaEnum>
+        </formula> 
+        <constituent>
+            <materialID>NIST_100-6_Recycle Material8</materialID>
+            <quantity>
+                <description>7th time recycled</description>
+                <unit>% of build height</unit>
+                <value>
+                    <average>90.1</average>
+                </value>
+            </quantity>
+        </constituent>
+        <constituent>
+            <materialID>NIST_100-6_Material5</materialID>
+            <quantity>
+                <description>5 time recycled</description>
+                <unit>% of build height</unit>
+                <value>
+                    <average>9.9</average>
+                </value>
+            </quantity>
+        </constituent>        
+        <specimenCollection>
+            <specimen>
+                <specimenID>P-0077-14</specimenID>
+                <samplingDate>2014-07-14</samplingDate>
+                <specimenLocation>Dispenser</specimenLocation>
+            </specimen>
+        </specimenCollection>
+    </feedstockPowder>
+</amMaterialDB>

@@ -1,0 +1,32 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <powderTest>
+            <buildID>NIST-RPS-A-14_0010</buildID>
+            <testID>HF-A-14-10.1</testID>
+            <specimenID>P-0087-14</specimenID>
+            <specimenPreparation>recycled powder in Dispenser</specimenPreparation>
+            <materialName>
+                <materialNameEnum>17-4PH</materialNameEnum>
+            </materialName>
+            <materialStockName>17-4PH</materialStockName>
+            <materialStockID>NIST_100-6_Feedstock10</materialStockID>
+            <projectID>NIST-RPS-14</projectID>
+            <testType>FLOWRATE-HF</testType>
+            <testOperator>N/A</testOperator>
+            <testLocation>N/A</testLocation>
+            <startTime>0001-01-01T00:00:00</startTime>
+            <stopTime>0001-01-01T00:00:00</stopTime>
+            <testStandards>ASTM B214</testStandards>            
+            <powderTestResults>
+                <flowability>
+                    <name>flowrate</name>
+                    <unit>sec</unit>
+                    <value>
+                        <average>11.87</average>
+                        <std>0.15</std>
+                    </value>
+                </flowability>
+           </powderTestResults>           
+        </powderTest>
+    </amTest>
+</amTestDB>

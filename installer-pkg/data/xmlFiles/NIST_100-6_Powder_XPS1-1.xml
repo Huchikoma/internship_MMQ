@@ -1,0 +1,117 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <powderTest>
+            <buildID>NIST-RPS-A-14_001</buildID>
+            <testID>PXPS-A-14-1.1</testID>
+            <specimenID>P-0040-14</specimenID>
+            <specimenPreparation>Feedstock Build 1</specimenPreparation>
+            <materialName>
+                <materialNameEnum>17-4PH</materialNameEnum>
+            </materialName>
+            <materialStockName>17-4PH</materialStockName>
+            <materialStockID>NIST_100-6_Feedstock1</materialStockID>
+            <projectID>NIST-RPS-14</projectID>
+            <testType>CHEMISTRY-XPS</testType>
+            <testOperator>conducted by a commercial service laboratory</testOperator>
+            <testLocation>N/A</testLocation>
+            <startTime>0001-01-01T00:00:00</startTime>
+            <stopTime>0001-01-01T00:00:00</stopTime>
+            <testStandards>ASTM E1019 [2011] and ASTM E1086 [2014]</testStandards>                   
+           <powderTestResults>
+               <powderComposition>
+                   <measureMethods>N/A</measureMethods>
+                   <constituent>
+                       <element>Carbon</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>0.03</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Manganese</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>0.67</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Phosphorus</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>0.016</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Sulfur</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>0.006</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Silicon</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>0.8</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Nickel</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>4.81</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Chromium</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>15.72</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Molybdenum</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>0.11</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Copper</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>3.74</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+                   <constituent>
+                       <element>Nitrogen</element>
+                       <quantity>
+                           <unit>weight %</unit>
+                           <value>
+                               <average>0.16</average>
+                           </value>
+                       </quantity>
+                   </constituent>
+               </powderComposition>
+           </powderTestResults>            
+        </powderTest>
+    </amTest>
+</amTestDB>

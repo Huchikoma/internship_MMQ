@@ -1,0 +1,51 @@
+<amMaterialDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <feedstockPowder>
+        <generalInfo>
+            <materialStockID>NIST_IN625_RR_Feedstock_HW</materialStockID>
+            <materialStockName>NIST_IN625_RR_Feedstock for NIST Build</materialStockName>
+            <materialDescription>100% Virgin material: IN625 from Delta</materialDescription>
+            <materialStockOwner>NIST</materialStockOwner>           
+        </generalInfo>
+        <materialDefinitions>            
+            <virginProduct>
+                <productDefinition>
+                    <productName>Delta NickelAlloy IN625</productName>
+                    <vendor><vendorNameEnum>Delta</vendorNameEnum></vendor>
+                    <productID>Delta art.-no. 9011-0022</productID>
+                <productVersion>N/A</productVersion>
+                </productDefinition>
+                <materialType>
+                    <materialEnum>NickelAlloy</materialEnum>
+                </materialType>
+                <materialName>
+                     <materialNameEnum>IN625</materialNameEnum>
+                </materialName>               
+            </virginProduct>
+        </materialDefinitions>       
+        <formula>
+	  <feedstockMaterialFormulaEnum>LAYERED</feedstockMaterialFormulaEnum>
+	</formula>
+        <constituent>
+            <materialID>NIST-Delta-IN625-Stock 2012</materialID>
+            <quantity>
+                <description>virgin</description>
+                <unit>% of build height</unit>
+                <value>
+                    <average>100</average>
+                </value>
+            </quantity>
+        </constituent>  
+        <specimenCollection>
+            <specimen>
+                <specimenID>RR_3_P-24-14</specimenID>
+                <samplingDate>2014-05-01</samplingDate>
+                <specimenLocation>Bucket 3</specimenLocation>
+            </specimen>
+            <specimen>
+                <specimenID>RR_11_P-32-14</specimenID>
+                <samplingDate>2014-05-01</samplingDate>
+                <specimenLocation>Bucket 11</specimenLocation>
+            </specimen>
+        </specimenCollection>
+    </feedstockPowder>
+</amMaterialDB>

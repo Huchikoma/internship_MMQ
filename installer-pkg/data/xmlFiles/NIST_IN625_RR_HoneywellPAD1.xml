@@ -1,0 +1,36 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <powderTest>
+            <buildID>NIST_IN625_RR_HW_Build</buildID>
+            <testID>PAD_NIST_RR_14-HW.1</testID>
+            <specimenID>RR_3_P-24-14</specimenID>
+            <specimenPreparation>Virgin Powder in Dispenser</specimenPreparation>
+            <materialName>
+                <materialNameEnum>IN625</materialNameEnum>
+            </materialName>
+            <materialStockName>Delta IN625 HW Stock</materialStockName>
+            <materialStockID>NIST_IN625_RR_Feedstock_HW</materialStockID>
+            <projectID>NIST-IN625-RR-14</projectID>
+            <testType>PARTICLEDENSITY-APPARENT</testType>
+            <testOperator>CB</testOperator>
+            <testLocation>NIST</testLocation>
+            <startTime>2014-06-16T08:00:00</startTime>
+            <stopTime>2014-06-16T17:00:00</stopTime>
+            <testStandards>ASTM B212-99</testStandards>            
+           <powderTestResults>
+                <powderDensity>
+                    <apparentDensity>
+                        <measurementMethod>Hall</measurementMethod>
+                        <apparentDensityValue>
+                            <unit>g/cm^3</unit>
+                            <value>
+                                <average>4.15</average>
+                                <std>0.02</std>
+                            </value>
+                        </apparentDensityValue>
+                    </apparentDensity>
+                </powderDensity>
+            </powderTestResults>            
+        </powderTest>
+    </amTest>
+</amTestDB>

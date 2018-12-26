@@ -1,0 +1,53 @@
+<amMaterialDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <feedstockPowder>
+        <generalInfo>
+            <materialStockID>NIST_100-6_Feedstock2</materialStockID>
+            <materialStockName>NIST_100-6_Feedstock for Build 2</materialStockName>
+            <materialDescription>From RM1</materialDescription>
+            <materialStockOwner>NIST</materialStockOwner> 
+            <materialQuantity>
+                <unit>millimeter</unit>
+                <value>
+                    <average>44.1</average>
+                </value>
+            </materialQuantity>
+        </generalInfo>
+        <materialDefinitions>
+            <virginProduct>
+                <productDefinition>
+                    <productName>17-4PH</productName>
+                    <vendor>
+                        <vendorNameEnum>Delta</vendorNameEnum>
+                    </vendor>
+                    <productID>9011-0038</productID>
+                </productDefinition>    
+                <materialType>
+                    <materialEnum>StainlessSteel</materialEnum>
+                </materialType>
+                <materialName>
+                    <materialNameEnum>17-4PH</materialNameEnum>
+                </materialName>
+            </virginProduct>
+        </materialDefinitions>
+        <formula>
+            <feedstockMaterialFormulaEnum>LAYERED</feedstockMaterialFormulaEnum>
+        </formula>  
+        <constituent>
+            <materialID>NIST_100-6_Material1</materialID>
+            <quantity>
+                <description>1 time recycled</description>
+                <unit>% of build height</unit>
+                <value>
+                    <average>100</average>
+                </value>
+            </quantity>
+        </constituent>        
+        <specimenCollection>
+            <specimen>
+                <specimenID>P-0046-14</specimenID>
+                <samplingDate>2014-07-03</samplingDate>
+                <specimenLocation>Dispenser</specimenLocation>
+            </specimen>
+        </specimenCollection>
+    </feedstockPowder>
+</amMaterialDB>

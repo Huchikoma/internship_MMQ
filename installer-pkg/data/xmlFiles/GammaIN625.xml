@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amVendorMaterialDB
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+  <amVendorMaterial>
+    <productDefinition>
+      <productName>Gamma Powder IN625</productName>
+      <vendor>
+        <vendorNameEnum>Gamma</vendorNameEnum>
+      </vendor>
+      <productID>3213103-0003</productID>
+    </productDefinition>
+    <materialType>
+      <materialEnum>NickelAlloy</materialEnum>
+    </materialType>
+    <materialName>
+      <materialNameEnum>IN625</materialNameEnum>
+    </materialName>
+    <materialForm>
+      <otherMaterialForm>unknown</otherMaterialForm>
+    </materialForm>
+    <materialGrade>AMS 5666F</materialGrade>
+    <manufacturingMethod>
+      <materialManufacturingMethodEnum>Powder-Nitrogen Atomized</materialManufacturingMethodEnum>
+    </manufacturingMethod>
+    <materialSpec>
+      <powder>
+        <powderComposition>
+          <constituent>
+            <element>Carbon</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>0.100000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Manganese</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>0.500000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Sulfur</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>0.015000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Chromium</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <min>20.000000</min>
+                <max>23.000000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Molybdenum</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <min>8.000000</min>
+                <max>10.000000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Al</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>0.400000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Cobalt</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>1.000000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Nickel</element>
+            <quantity>
+              <description>Balance</description>
+              <unit>weight %</unit>
+              <value>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Titanium</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>0.400000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Silicon</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>0.500000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Phosphorous</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>0.015000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Niobium</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <min>3.150000</min>
+                <max>4.150000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Nitrogen</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <nominalValue>0.100000</nominalValue>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Oxygen</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <nominalValue>0.020000</nominalValue>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Tantalum</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>0.400000</max>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Iron</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <max>5.000000</max>
+              </value>
+            </quantity>
+          </constituent>
+        </powderComposition>
+        <density>
+          <apparentDensity>
+          </apparentDensity>
+          <tapDensity>
+            <measurementMethod>N/A</measurementMethod>
+            <tapDensityValue>
+              <unit>g/cm^3</unit>
+              <value>
+                <average>5.100000</average>
+              </value>
+            </tapDensityValue>
+          </tapDensity>
+        </density> 
+        <particleSize>
+          <dValues>
+            <measurementMethod>Sieve Analysis</measurementMethod>
+            <dValueItem>
+              <name>D10</name>
+              <unit>micrometer</unit>
+              <value>
+                <average>13.400000</average>
+              </value>
+            </dValueItem>
+            <dValueItem>
+              <name>D50</name>
+              <unit>micrometer</unit>
+              <value>
+                <average>28.400000</average>
+              </value>
+            </dValueItem>
+            <dValueItem>
+              <name>D80</name>
+              <unit>micrometer</unit>
+              <value>
+                <average>43.000000</average>
+              </value>
+            </dValueItem>
+          </dValues>
+        </particleSize>
+      </powder>    
+    </materialSpec>
+  </amVendorMaterial>
+</amVendorMaterialDB>

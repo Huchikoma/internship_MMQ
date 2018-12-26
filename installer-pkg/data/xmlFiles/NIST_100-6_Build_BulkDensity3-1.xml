@@ -1,0 +1,35 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <partTest>
+            <testID>BD-A-14-3.1</testID>
+            <projectID>NIST-RPS-14</projectID>
+            <testType>BULKDENSITY</testType>
+            <testOperator>N/A</testOperator>
+            <testLocation>N/A</testLocation>
+            <startTime>0001-01-01T00:00:00</startTime>
+            <stopTime>0001-01-01T00:00:00</stopTime>
+            <buildID>NIST-RPS-A-14_003</buildID>
+            <specimenID>C-003.1</specimenID>
+            <specimenID>C-003.2</specimenID>
+            <specimenID>C-003.3</specimenID>
+            <specimenPreparation>as built</specimenPreparation>
+            <testStandards>ISO 3369 [2006]</testStandards>          
+            <testEquipment>
+                <machineID>N/A</machineID>
+            </testEquipment>                  
+           <testResults>
+               <density>
+                   <bulkDensity>
+                       <bulkDensityValue>
+                           <unit>g/cm^3</unit>
+                           <value>
+                               <average>7.873</average>
+                               <std>0.003</std>
+                           </value>
+                       </bulkDensityValue>
+                   </bulkDensity>                  
+               </density>
+           </testResults>            
+        </partTest>
+    </amTest>
+</amTestDB>

@@ -1,0 +1,11 @@
+<amProjectDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amProject>
+        <projectID>NIST-RPS-14</projectID>
+        <projectName>NIST Recycling Powder Study</projectName>
+        <projectDescription>A series of 11 identical laser-based powder bed fusion (PBF) builds were completed with varying amounts of virgin and recycled nitrogen gas atomized S17-4 PH stainless steel powder following a specific powder recycling strategy that simulates industrial practice. Mechanical properties of parts were evaluated using tensile and hardness tests. Recycled powder properties, such as particle size distribution, flowability, chemical composition, and microstructure were evaluated. The recycled powder showed no significant changes in its particle size (PS), particle size distribution (PSD), and particle shape but apparent density and powder bed density increased while flow time improved. Recycling the powder in a nitrogen atmosphere caused a slight increase of the martensitic-ferritic phase in the predominately austenitic S17-4 PH powder. Laser-based PBF fabricated austenitic-martensitic-ferritic S17-4 PH showed a ratio of approximately 1:1 between austenitic and martensitic-ferritic phases. The specimens were heat treated for stress relief. Tensile tests on the specimens did not show dramatic change in the tensile properties with recycling up to 11 times. The fine dendritic austenitic-martensitic-ferritic microstructure of the heat-treated S17-4-PH reached a 0.2 % offset yield strength (YS0.2) above 520 MPa, and an elongation after fracture (A) of 28 %. Mechanical and material properties from specimens fabricated from powder recycled up to 11 times were similar to specimens fabricated from virgin powder.</projectDescription>
+        <organization>NIST</organization>
+        <start>2014-04-01</start>
+        <end>2017-04-01</end>
+        <contact>Gregor Jacob</contact>
+    </amProject>   
+</amProjectDB>

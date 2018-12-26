@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amMachineDB
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+  <amMachine>
+    <name>HW_RR_Delta300</name>
+    <description>Delta MU300</description>
+    <owner>HW</owner>
+    <manufacturer>
+      <vendorNameEnum>Delta</vendorNameEnum>
+    </manufacturer>
+    <model>MU300</model>
+    <serialNumber>SI1469</serialNumber>
+    <dateOfMade>2010-01-01</dateOfMade>
+    <location>HW</location>
+    <processCategory>LPBF</processCategory>
+    <numOfLasers>1</numOfLasers>
+    <laserSystem>
+      <machineVendor>IPG</machineVendor>
+      <machineModel>IPG YRL-400-SM</machineModel>
+      <machineSerialNumber> </machineSerialNumber>
+      <laserType>Single Mode Fiber</laserType>
+      <dateOfMade>2010-01-01</dateOfMade>
+      <ratedPower>
+        <unit>W</unit>
+        <value>
+          <nominalValue>195.000000</nominalValue>
+        </value>
+      </ratedPower>
+      <ratedWaveLength>Pulse</ratedWaveLength>
+      <lensType>F-theta-lens</lensType>
+      <lensInstallationDate>2013-06-24</lensInstallationDate>
+      <laserMode>Single</laserMode>
+      <laserBeam>
+        <beamShape>Elliptical</beamShape>
+        <minBeamSpot>
+          <unit>micrometer</unit>
+          <value>
+            <nominalValue>100.000000</nominalValue>
+          </value>
+        </minBeamSpot>
+        <maxBeamSpot>
+          <unit>micrometer</unit>
+          <value>
+            <nominalValue>500.000000</nominalValue>
+          </value>
+        </maxBeamSpot>
+      </laserBeam>
+    </laserSystem>
+    <softwareSystem>
+      <updateHistory>
+        <operatorName> </operatorName>
+        <updatedVersion>PSW 3.6 (Build 32)</updatedVersion>
+        <dateOfUpdate>2014-06-24</dateOfUpdate>
+      </updateHistory>
+    </softwareSystem>
+    <scanSpeedMax>
+      <unit>m/s</unit>
+      <value>
+        <average>7.000000</average>
+      </value>
+    </scanSpeedMax>
+    <calibrationHistory>
+      <calibrationDataItem>
+        <description>System Calibration</description>
+        <fileLocation> </fileLocation>
+        <calibrationDate>2014-06-24</calibrationDate>
+        <calibrationOperator>
+          <name> </name>
+        </calibrationOperator>
+      </calibrationDataItem>
+    </calibrationHistory>
+    <maintenanceHistory>
+      <maintenanceItem>
+        <description>Preventative Maintenance</description>
+        <date>2014-06-24</date>
+        <maintenanceOperator>
+        </maintenanceOperator>
+      </maintenanceItem>
+    </maintenanceHistory>
+    <numRecoaterBlades>1</numRecoaterBlades>
+  </amMachine>
+</amMachineDB>

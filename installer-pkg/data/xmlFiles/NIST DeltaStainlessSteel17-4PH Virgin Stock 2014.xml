@@ -1,0 +1,144 @@
+<amMaterialDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <virginPowder>
+        <generalInfo>
+            <materialStockID>NIST-Delta-SS-PH1-Stock2014</materialStockID>
+            <materialStockName>NIST-Delta-StainlessSteel-PH1-Stock2014</materialStockName>
+            <materialDescription>PO SB1341-14-SU-0252</materialDescription>
+            <materialStockOwner>NIST</materialStockOwner>
+            <materialQuantity>
+                <unit>kg</unit>
+                <value>
+                    <average>120</average>
+                </value>                    
+            </materialQuantity>
+            <materialStockLocation>Sound Building, NIST Gaithersburg Campus</materialStockLocation>
+            <materialProperties>
+                <powder>
+                    <powderComposition>
+                        <constituent>
+                            <element>Chromium</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>15.72</average>                                    
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Nickel</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>4.81</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Copper</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>3.74</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Silicon</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>0.80</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Manganese</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>0.67</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Phosphorus</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>0.016</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Sulfur</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>0.006</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Carbon</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>0.03</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Molybdenum</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>0.11</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                        <constituent>
+                            <element>Nitrogen</element>
+                            <quantity>
+                                <unit>weight %</unit>
+                                <value>
+                                    <average>0.16</average>
+                                </value>
+                            </quantity>
+                        </constituent>
+                    </powderComposition>
+                    <associatedTestID>J1194_1</associatedTestID>
+                </powder>    
+                <powder>
+                    <particleSize>
+                        <dValues>
+                            <measurementMethod>sieving</measurementMethod>
+                            <dValueItem>
+                                <name>D96.8</name>
+                                <unit>micrometer</unit>
+                                <value>
+                                    <average>53</average>
+                                </value>
+                            </dValueItem>                           
+                        </dValues>                        
+                    </particleSize>
+                    <associatedTestID>N/A</associatedTestID>
+                </powder>
+            </materialProperties>
+        </generalInfo>
+        <materialDefinition>
+            <productDefinition>
+                <productName>Metal powder Delta StainlessSteel PH1</productName>
+                <vendor><vendorNameEnum>Delta</vendorNameEnum></vendor>
+                <productID>Delta 9001-0019</productID>
+            </productDefinition>
+            <materialType>
+	            <materialEnum>StainlessSteel</materialEnum>
+	        </materialType>
+            <materialName>
+	           <materialNameEnum>17-4PH</materialNameEnum>
+	        </materialName>
+        </materialDefinition>
+        <manufacturingLot>F491201</manufacturingLot>
+        <purchaseDate>2014-04-12</purchaseDate>
+    </virginPowder>
+</amMaterialDB>

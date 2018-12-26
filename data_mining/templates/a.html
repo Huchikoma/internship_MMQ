@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Graph 3D demo</title>
+
+  <style>
+    body {font: 10pt arial;}
+  </style>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+  var data = null;
+  var graph = null;
+
+  function custom(x, y) {
+    return (Math.sin(x/50) * Math.cos(y/50) * 50 + 50);
+  }
+
+  // Called when the Visualization API is loaded.
+  function drawVisualization() {
+    // Create and populate a data table.
+        var X = new Array();
+        var Y = new Array();
+        var Z = new Array();
+          var data = new vis.DataSet();
+          $.ajax({
+            type: "get",
+            dataType: "json",
+            url: "myurl3?name=val&name2=val2"
+          }).done(function(res) {
+          console.log(res)  
+            X = res["X"];
+            Y = res["Y"];
+            Z = res["Z"];
+            console.log(typeof(X[0]))
+            });
+          for (var i = 0; i < 30; i+=1) {
+            alert("FD")
+              data.add({
+                x: X[i],
+                y: Y[i],
+                z: Z[i]
+              });
+            }
+    // specify options
+    var options = {
+      width:  '600px',
+      height: '600px',
+      style: 'surface',
+      showPerspective: true,
+      showGrid: true,
+      showShadow: false,
+      keepAspectRatio: true,
+      verticalRatio: 0.5
+    };
+
+    // create a graph3d
+    var container = document.getElementById('mygraph');
+    graph3d = new vis.Graph3d(container, data, options);
+  }
+  </script>
+</head>
+
+<body onload="drawVisualization();">
+  <div id="mygraph"></div>
+</body>
+</html>

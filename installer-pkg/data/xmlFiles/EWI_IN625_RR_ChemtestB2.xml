@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amTestDB
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+  <amTest>
+    <partTest>
+      <testID>EWI_IN625_RR_Chemistry_B2</testID>
+      <projectID>EWI-IN625-RR-12</projectID>
+      <testType>CHEMISTRY-XPS</testType>
+      <testOperator>Luvak, Inc</testOperator>
+      <testLocation>Boylston, MA</testLocation>
+      <startTime>2000-05-01T00:00:00</startTime>
+      <stopTime>2000-05-01T00:00:00</stopTime>
+      <partID>MET2</partID>
+      <buildID>EWI_JIP_625_DMC_Build2</buildID>
+      <specimenID>Not Specified</specimenID>
+      <specimenPreparation>As-built</specimenPreparation>
+      <testStandards>ASTM E1019-11, ASTM E 1019-11, and ASTM E 1097-12</testStandards>
+      <testEquipment>
+        <machineID>Not Specified</machineID>
+      </testEquipment>
+      <testResults>
+        <chemistry>
+          <measureMethods> Based on ASTM standards</measureMethods>
+          <constituent>
+            <element>Oxygen</element>            
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.037000</average>
+              </value>
+            </quantity>           
+          </constituent>
+          <constituent>
+            <element>Carbon</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.018000</average>
+              </value>
+            </quantity>            
+          </constituent>
+          <constituent>
+            <element>Nitrogen</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.074000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Sulfur</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.002000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Manganese</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.320000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Silicon</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.370000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Phosphorus</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.004000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Chromium</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>21.450001</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Molybdenum</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>9.150000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Niobium</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>3.550000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Tantalum</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.002000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Cobalt</element>
+           <quantity>
+             <unit>weight %</unit>
+             <value>
+               <average>0.019000</average>
+             </value>
+           </quantity>
+          </constituent>
+          <constituent>
+            <element>Titanium</element>
+            <quantity>
+              <unit>weight %</unit>
+              <value>
+                <average>0.013000</average>
+              </value>
+            </quantity>
+          </constituent>
+          <constituent>
+            <element>Aluminum</element>
+           <quantity>
+             <unit>weight %</unit>
+             <value>
+               <average>0.045000</average>
+             </value>
+           </quantity>
+          </constituent>
+          <constituent>
+            <element>Iron</element>
+           <quantity>
+             <unit>weight %</unit>
+             <value>
+               <average>0.140000</average>
+             </value>
+           </quantity>
+          </constituent>
+        </chemistry>
+      </testResults>
+    </partTest>
+  </amTest>
+</amTestDB>

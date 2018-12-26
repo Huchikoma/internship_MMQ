@@ -1,0 +1,32 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <partTest>
+            <testID>BXRD-A-14-10.1</testID>
+            <projectID>NIST-RPS-14</projectID>
+            <testType>MICROSTRUCTURE-XRD</testType>
+            <testOperator>N/A</testOperator>
+            <testLocation>N/A</testLocation>
+            <startTime>0001-01-01T00:00:00</startTime>
+            <stopTime>0001-01-01T00:00:00</stopTime>
+            <buildID>NIST-RPS-A-14_0010</buildID>
+            <specimenID>C-0010.2</specimenID>
+            <specimenPreparation>as built</specimenPreparation>
+            <testStandards>N/A</testStandards>          
+            <testEquipment>
+                <machineID>N/A</machineID>
+            </testEquipment>                  
+           <testResults>
+               <microStructure>
+                   <description>XRD for as-built</description>
+                   <otherMeasures>
+                       <name>FCC</name>
+                       <unit>%</unit>
+                       <value>
+                           <average>47.35</average>
+                       </value>
+                   </otherMeasures>
+               </microStructure>
+           </testResults>            
+        </partTest>
+    </amTest>
+</amTestDB>

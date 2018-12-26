@@ -1,0 +1,23 @@
+<amProjectDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amProject>
+        <projectID>NIST-IN625-RR-14</projectID>
+        <projectName>Interlaboratory study for nickel alloy 625 made by laser powder bed fusion additive manufacturing to assess mechanical property variability</projectName>
+        <projectDescription>This round robin study has three goals. The first goal is to refine the AM test protocols and analysis methods to improve our process of 
+            conducting a RR study. Secondly, we wanted to assess the variability in the tensile properties of Inconel 625 tension specimens from different institutions. 
+            IN625 was chosen for this study because it is an inexpensive metal commonly used in the AM community. The last goal was to take another step towards being 
+            capable of carrying out extensive round robin tests that will result in certification of AM materials.             
+            This project to refine the methods for conducting RR studies for AM processes is part of a NIST program objective to accelerate the use of AM parts in
+            high performance applications in the US and part of a NIST developed roadmap for advancing AM (ref NIST roadmap). With an established RR method, studies 
+            can then be conducted to provide data to an AM material’s database.
+            The focus of this study was to assess the variability in laser powder bed fusion (LPBF) 
+            machines. Three different LPBF machines were used; 5 were Delta MU200 machines , 1 was an Delta MU300 machine, and 1 was an SLM 250. The intent of the study was
+            that all the AM machines would fabricate identical builds. However, because of differences in machine manufacturers (Delta versus SLM) and even models of 
+            the same manufacturer (MU200 versus MU300) some settings were different. Participants with the same machines also had different levels of control to modify 
+            machine settings based on their purchased access and software version. There were 7 participants in the study, and each participant used only one AM machine.
+            Two participants were academic institutions, two were commercial companies, and 3 were government institutions</projectDescription>
+        <organization>NIST</organization>
+        <start>2014-01-01</start>
+        <end>2015-12-31</end>
+        <contact>Christopher Brown</contact>
+    </amProject>   
+</amProjectDB>

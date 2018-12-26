@@ -1,0 +1,30 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <partTest>
+            <testID>HRC-A-14-6.2</testID>
+            <projectID>NIST-RPS-14</projectID>
+            <testType>HARDNESS</testType>
+            <testOperator>N/A</testOperator>
+            <testLocation>N/A</testLocation>
+            <startTime>0001-01-01T00:00:00</startTime>
+            <stopTime>0001-01-01T00:00:00</stopTime>
+            <buildID>NIST-RPS-A-14_006</buildID>
+            <specimenID>C-006.x</specimenID>
+            <specimenPreparation>as built</specimenPreparation>
+            <testStandards>ASTM E18-16 [2016]</testStandards>          
+            <testEquipment>
+                <machineID>N/A</machineID>
+            </testEquipment>                  
+           <testResults>
+               <hardness>
+                   <description>xz plane</description>
+                   <unit>Rockwell</unit>
+                   <value>
+                       <average>15.75</average>
+                       <std>0.75</std>
+                   </value>
+               </hardness>
+           </testResults>            
+        </partTest>
+    </amTest>
+</amTestDB>

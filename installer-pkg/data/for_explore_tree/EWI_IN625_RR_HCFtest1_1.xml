@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<amTestDB
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+  <amTest>
+    <partTest>
+      <testID>EWI_IN625_RR_HCF_01</testID>
+      <projectID>EWI-IN625-RR-12</projectID>
+      <testName>High-Cycle Fatigue</testName>
+      <testType>STRESSCONTROLLEDFATIGURE</testType>
+      <testOperator>Westmoreland</testOperator>
+      <testLocation>Youngstown, PA</testLocation>
+      <startTime>2016-06-20T06:00:00</startTime>
+      <stopTime>2016-06-21T18:00:00</stopTime>
+      <partID>Part_6</partID>
+      <buildID>EWI_JIP_625_NISTbuild</buildID>
+      <specimenID>F-XY-X_1</specimenID>
+      <testStandards>ASTM E466-07</testStandards>
+      <testEquipment>
+        <machineID>H207</machineID>
+      </testEquipment>
+      <testResults>
+        <stressControlledFatigue>
+          <temp>Room</temp>
+          <measuredDiameter>
+            <unit>inches</unit>
+            <value>
+              <average>0.200600</average>
+            </value>
+          </measuredDiameter>
+          <maxStress>
+            <unit>ksi</unit>
+            <value>
+              <nominalValue>85.000000</nominalValue>
+            </value>
+          </maxStress>
+          <maxLoad>
+            <unit>lbs</unit>
+            <value>
+              <nominalValue>2686.000000</nominalValue>
+            </value>
+          </maxLoad>
+          <minStress>
+            <unit>ksi</unit>
+            <value>
+              <nominalValue>-85.000000</nominalValue>
+            </value>
+          </minStress>
+          <minLoad>
+            <unit>lbs</unit>
+            <value>
+              <nominalValue>-2686.000000</nominalValue>
+            </value>
+          </minLoad>
+          <frequency>
+            <unit>HZ</unit>
+            <value>
+              <nominalValue>40.000000</nominalValue>
+            </value>
+          </frequency>
+          <cyclesToFailure>84479</cyclesToFailure>
+          <failureLocation>gage</failureLocation>
+        </stressControlledFatigue>
+      </testResults>
+      <rawDataFile>
+        <name>U51630</name>
+        <fileName>N/A</fileName>
+      </rawDataFile>
+    </partTest>
+  </amTest>
+</amTestDB>

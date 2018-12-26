@@ -1,0 +1,16 @@
+<amProjectDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amProject>
+        <projectID>EWI-IN625-RR-12</projectID>
+        <projectName>Development and Measurement Analysis of Design Data for Laser Powder Bed Additive Manufacturing of Nickel Alloy 625</projectName>
+        <projectDescription>The purpose of the project reported herein was develop, with industry input, a method for data generation and reporting for a specific metal AM process 
+            known as laser powder bed fusion (L-PBF). The method, known as the Manufacturing Plan, was demonstrated specifically for nickel alloy 625 produced using Delta MU200 Direct 
+            Metal Laser Sintering machines.The Manufacturing Plan is broken into two main sections, one to define the production process and one to record it. The Manufacturing Plan 
+            was demonstrated with two controlled variables: machine serial number and build environment. All other conditions were the same including build geometry, powder lot, 
+            process parameter sets and heat treatment. To this end, four total L-PBF builds were produced on three different serial number machines and in argon or nitrogen environments. 
+            The build coupons received a stress relief at 1038°C, followed by a hot isostatic pressure thermal treatment at 1121°C.</projectDescription>
+        <organization>EWI</organization>
+        <start>2012-09-01</start>
+        <end>2014-05-30</end>
+        <contact>Shawn M. Kelly</contact>
+    </amProject>   
+</amProjectDB>

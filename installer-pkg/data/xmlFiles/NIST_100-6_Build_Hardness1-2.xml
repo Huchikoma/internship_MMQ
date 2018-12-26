@@ -1,0 +1,33 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <partTest>
+            <testID>HRC-A-14-1.2</testID>
+            <projectID>NIST-RPS-14</projectID>
+            <testType>HARDNESS</testType>
+            <testOperator>N/A</testOperator>
+            <testLocation>N/A</testLocation>
+            <startTime>0001-01-01T00:00:00</startTime>
+            <stopTime>0001-01-01T00:00:00</stopTime>
+            <buildID>NIST-RPS-A-14_001</buildID>
+            <specimenID>C-001.x</specimenID>
+            <specimenPreparation>heat treated at 650 °C and slowly cooled inside the oven to relieve residual stresses.</specimenPreparation>
+            <testStandards>ASTM E18-16 [2016]</testStandards> 
+            <description>Rockwell C scale (HRC) hardness
+                measurements were averaged based on 4 indents made on the vertical surface (xz- plane) of each
+                cube.</description>
+            <testEquipment>
+                <machineID>N/A</machineID>
+            </testEquipment>                  
+           <testResults>
+               <hardness>
+                   <description>xz plane</description>
+                   <unit>Rockwell</unit>
+                   <value>
+                       <average>23.8</average>
+                       <std>0.25</std>
+                   </value>
+               </hardness>
+           </testResults>            
+        </partTest>
+    </amTest>
+</amTestDB>

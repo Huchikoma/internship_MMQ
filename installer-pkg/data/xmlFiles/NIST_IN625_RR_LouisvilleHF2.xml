@@ -1,0 +1,32 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <powderTest>
+            <buildID>NIST_IN625_RR_Louisville_Build</buildID>
+            <testID>HF_NIST_RR_14-Louisville.2</testID>
+            <specimenID>RR_15_P-36-14</specimenID>
+            <specimenPreparation>Virgin Powder in Dispenser</specimenPreparation>
+            <materialName>
+                <materialNameEnum>IN625</materialNameEnum>
+            </materialName>
+            <materialStockName>Delta IN625 Louisville Stock</materialStockName>
+            <materialStockID>NIST_IN625_RR_Feedstock_Louisville</materialStockID>
+            <projectID>NIST-IN625-RR-14</projectID>
+            <testType>FLOWRATE-HF</testType>
+            <testOperator>CB</testOperator>
+            <testLocation>NIST</testLocation>
+            <startTime>2014-07-24T08:00:00</startTime>
+            <stopTime>2014-07-24T17:00:00</stopTime>
+            <testStandards>ASTM B213-03</testStandards>            
+            <powderTestResults>
+                <flowability>
+                    <name>flowrate</name>
+                    <unit>sec</unit>
+                    <value>
+                        <average>12.8</average>
+                        <std>0.1</std>
+                    </value>
+                </flowability>
+           </powderTestResults>           
+        </powderTest>
+    </amTest>
+</amTestDB>

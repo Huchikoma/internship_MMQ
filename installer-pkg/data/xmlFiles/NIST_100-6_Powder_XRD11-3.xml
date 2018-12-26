@@ -1,0 +1,44 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <powderTest>
+            <buildID>NIST-RPS-A-14_0011</buildID>
+            <testID>PXRD-A-14-11.3</testID>
+            <specimenID>P-0098-14</specimenID>
+            <specimenPreparation>Recycle Sieved Dispenser from Build 11</specimenPreparation>
+            <materialName>
+                <materialNameEnum>17-4PH</materialNameEnum>
+            </materialName>
+            <materialStockName>17-4PH</materialStockName>
+            <materialStockID>NIST_100-6_RecycleMaterial11</materialStockID>
+            <projectID>NIST-RPS-14</projectID>
+            <testType>MICROSTRUCTURE-XRD</testType>
+            <testOperator>Stutzman, Paul E.</testOperator>
+            <testLocation>N/A</testLocation>
+            <startTime>0001-01-01T00:00:00</startTime>
+            <stopTime>0001-01-01T00:00:00</stopTime>
+            <testStandards>N/A</testStandards>
+            <description>The instrument is configured with a copper tube (2200 watt, long fine-focus) running at 35kV, 45mA, a 0.6
+                degree divergence slit, 4 degree Soller slits, a position sensitive detector and Ni filter. Scans took about 45
+                minutes at a step size of 0.017 from 40 to 130 degrees two-theta</description>            
+           <powderTestResults>
+                <microstructure>
+                   <description>XRD for powder</description>
+                    <otherMeasures>
+                        <name>BCC</name>
+                        <unit>%</unit>
+                        <value>
+                            <average>5.7</average>
+                        </value>
+                    </otherMeasures>
+                    <otherMeasures>
+                        <name>FCC</name>
+                        <unit>%</unit>
+                        <value>
+                            <average>94.3</average>
+                        </value>
+                    </otherMeasures>
+                </microstructure>
+           </powderTestResults>            
+        </powderTest>
+    </amTest>
+</amTestDB>

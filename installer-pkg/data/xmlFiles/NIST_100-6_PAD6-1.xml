@@ -1,0 +1,36 @@
+<amTestDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/mdcs/ammd/1.5/installer-pkg/data/schema/am_schema_R2018a.xsd">
+    <amTest>
+        <powderTest>
+            <buildID>NIST-RPS-A-14_006</buildID>
+            <testID>PAD-A-14-6.1</testID>
+            <specimenID>P-0067-14</specimenID>
+            <specimenPreparation>recycled powder in Dispenser</specimenPreparation>
+            <materialName>
+                <materialNameEnum>17-4PH</materialNameEnum>
+            </materialName>
+            <materialStockName>17-4PH</materialStockName>
+            <materialStockID>NIST_100-6_Feedstock6</materialStockID>
+            <projectID>NIST-RPS-14</projectID>
+            <testType>PARTICLEDENSITY-APPARENT</testType>
+            <testOperator>N/A</testOperator>
+            <testLocation>N/A</testLocation>
+            <startTime>0001-01-01T00:00:00</startTime>
+            <stopTime>0001-01-01T00:00:00</stopTime>
+            <testStandards>ASTM B214</testStandards>            
+           <powderTestResults>
+                <powderDensity>
+                    <apparentDensity>
+                        <measurementMethod>Hall</measurementMethod>
+                        <apparentDensityValue>
+                            <unit>g/cm^3</unit>
+                            <value>
+                                <average>4.11</average>
+                                <std>0.01</std>
+                            </value>
+                        </apparentDensityValue>
+                    </apparentDensity>
+                </powderDensity>
+            </powderTestResults>           
+        </powderTest>
+    </amTest>
+</amTestDB>

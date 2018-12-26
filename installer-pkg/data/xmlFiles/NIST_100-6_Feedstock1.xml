@@ -1,0 +1,45 @@
+<amMaterialDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file:/C:/Home/Project/AM/Information%20Modleing/DataBase/AMMDr2/Schema/am_schema_R2_fix_2017Dec19.xsd">
+    <feedstockPowder>
+        <generalInfo>
+            <materialStockID>NIST_100-6_Feedstock1</materialStockID>
+            <materialStockName>NIST_100-6_Feedstock for Build 1</materialStockName>
+            <materialDescription>100% Virgin material: stainless steel powder 17-4PH from Delta</materialDescription>
+            <materialStockOwner>NIST</materialStockOwner>           
+        </generalInfo>
+        <materialDefinitions>
+            <virginProduct>
+                <productDefinition>
+                    <productName>17-4PH</productName>
+                    <vendor><vendorNameEnum>Delta</vendorNameEnum></vendor>
+                    <productID>9011-0038</productID>
+                </productDefinition>    
+                <materialType>
+		 <materialEnum>StainlessSteel</materialEnum>
+		</materialType>
+                <materialName>
+		  <materialNameEnum>17-4PH</materialNameEnum>
+		</materialName>
+            </virginProduct>
+        </materialDefinitions>
+        <formula>
+	  <feedstockMaterialFormulaEnum>LAYERED</feedstockMaterialFormulaEnum>
+	</formula>
+        <constituent>
+            <materialID>NIST-Delta-SS-PH1-Stock2014</materialID>
+            <quantity>
+                <description>virgin</description>
+                <unit>% of build height</unit>
+                <value>
+                    <average>100</average>
+                </value>
+            </quantity>
+        </constituent>
+        <specimenCollection>
+            <specimen>
+                <specimenID>P-0040-14</specimenID>
+                <samplingDate>2014-07-01</samplingDate>
+                <specimenLocation>Dispenser</specimenLocation>
+            </specimen>
+        </specimenCollection>
+    </feedstockPowder>
+</amMaterialDB>
