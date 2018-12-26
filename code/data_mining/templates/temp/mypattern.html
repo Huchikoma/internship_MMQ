@@ -1,0 +1,36 @@
+{% extends 'base_main.html' %}
+{% load staticfiles %}
+{% block extra_styles %}
+
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.css">
+    <style>.tb-no-boder tbody tr td{ border-top-color: transparent !important; }</style>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery-1.12.4.js"></script>
+    <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.js"></script>
+    {{the_script1|safe}}
+    {{the_script2|safe}}
+{% endblock %}
+  
+{% block body %}
+<div id="clear">
+  <table class="table tb-no-boder">
+  <tr>
+    <td>{{the_div1|safe}}</td>
+    <td>{{the_div2|safe}}</td>
+  </tr>
+  </table>
+  <p> </p>
+  <form method="post" style="margin-left: 10% ">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Density Prediction">
+  </form>
+  <br>
+  <strong style="margin-left: 70% ">Density Prediction Result(g/cm3):  {{ result }}</strong>
+</div>
+{% endblock %}
+  
+</html>

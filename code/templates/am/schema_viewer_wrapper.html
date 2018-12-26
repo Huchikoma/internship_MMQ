@@ -1,0 +1,68 @@
+{% extends 'base_main.html' %}
+{% load staticfiles %}
+
+{% comment %}
+<!--
+################################################################################
+#
+# File Name: terms-of-use.html
+# Application: templates
+# Description: 
+#
+# Author: Philippe Dessauw
+#         philippe.dessauw@nist.gov
+#
+# Sponsor: National Institute of Standards and Technology
+#
+################################################################################
+-->
+{% endcomment %}
+
+{% block extra_styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/curate/XMLTree.am.css' %}" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{% static 'schema_viewer/css/viewer.css' %}" media="screen" />
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-header">Schema Views and Download Page</h1>
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                    {% if message.tags == 'debug' %}
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-bug"></i> {{message}}
+                        </div>
+                    {% elif message.tags == 'info' %}
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-info"></i> {{message}}
+                        </div>
+                    {% elif message.tags == 'success' %}
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-check"></i> {{message}}
+                        </div>
+                    {% elif message.tags == 'warning' %}
+                        <div class="alert alert-warning">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-exclamation-triangle"></i> {{message}}
+                        </div>
+                    {% elif message.tags == 'error' %}
+                        <div class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-times"></i> {{message}}
+                        </div>
+                    {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% include "schema_viewer/main.html" %}
+{% endblock %}
+
+{% block extra_scripts %}
+    <script src="{% static 'schema_viewer/js/schema_loader.js' %}"></script>
+    <script src="{% static 'schema_viewer/js/download.js' %}"></script>
+    <script src="{% static 'inc/controllers/js/module_mgr.js' %}"></script>
+{% endblock %}

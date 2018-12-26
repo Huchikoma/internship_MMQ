@@ -1,0 +1,513 @@
+@font-face {
+	font-family: simpl-icons-newton;
+	src: url(../fonts/simpl-icons-newton.eot?#iefix) format("eot"), url(../fonts/simpl-icons-newton.woff) format("woff"), url(../fonts/simpl-icons-newton.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^='newton-'] {
+	text-transform: none; line-height: 1; font-family: "simpl-icons-newton"; font-style: normal; font-variant: normal; font-weight: normal; vertical-align: middle; display: inline-block; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; speak: none;
+}
+[class*=' newton-'] {
+	text-transform: none; line-height: 1; font-family: "simpl-icons-newton"; font-style: normal; font-variant: normal; font-weight: normal; vertical-align: middle; display: inline-block; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; speak: none;
+}
+.newton-360-feature::before {
+	content: "\EA01";
+}
+.newton-add-to-download-basket::before {
+	content: "\EA02";
+}
+.newton-android-app-store::before {
+	content: "\EA03";
+}
+.newton-aparat-negative::before {
+	content: "\EA04";
+}
+.newton-aparat::before {
+	content: "\EA05";
+}
+.newton-apple-mac-app-store::before {
+	content: "\EA06";
+}
+.newton-apps::before {
+	content: "\EA07";
+}
+.newton-arrow-down-large::before {
+	content: "\EA08";
+}
+.newton-arrow-down-small::before {
+	content: "\EA09";
+}
+.newton-arrow-left-large::before {
+	content: "\EA0A";
+}
+.newton-arrow-left-small::before {
+	content: "\EA0B";
+}
+.newton-arrow-right-large::before {
+	content: "\EA0C";
+}
+.newton-arrow-right-small::before {
+	content: "\EA0D";
+}
+.newton-arrow-to-top::before {
+	content: "\EA0E";
+}
+.newton-arrow-up-large::before {
+	content: "\EA0F";
+}
+.newton-arrow-up-small::before {
+	content: "\EA10";
+}
+.newton-at::before {
+	content: "\EA11";
+}
+.newton-audio-down::before {
+	content: "\EA12";
+}
+.newton-audio-off::before {
+	content: "\EA13";
+}
+.newton-audio-on::before {
+	content: "\EA14";
+}
+.newton-audio-up::before {
+	content: "\EA15";
+}
+.newton-audio::before {
+	content: "\EA16";
+}
+.newton-avi::before {
+	content: "\EA17";
+}
+.newton-biography::before {
+	content: "\EA18";
+}
+.newton-bookmark::before {
+	content: "\EA19";
+}
+.newton-calculate::before {
+	content: "\EA1A";
+}
+.newton-calendar::before {
+	content: "\EA1B";
+}
+.newton-career::before {
+	content: "\EA1C";
+}
+.newton-chat::before {
+	content: "\EA1D";
+}
+.newton-check-mark::before {
+	content: "\EA1E";
+}
+.newton-circle::before {
+	content: "\EA1F";
+}
+.newton-clock::before {
+	content: "\EA20";
+}
+.newton-close::before {
+	content: "\EA21";
+}
+.newton-conference::before {
+	content: "\EA22";
+}
+.newton-control::before {
+	content: "\EA23";
+}
+.newton-delete::before {
+	content: "\EA24";
+}
+.newton-doc::before {
+	content: "\EA25";
+}
+.newton-double-arrow-backward::before {
+	content: "\EA26";
+}
+.newton-double-arrow-down::before {
+	content: "\EA27";
+}
+.newton-double-arrow-forward::before {
+	content: "\EA28";
+}
+.newton-double-arrow-up::before {
+	content: "\EA29";
+}
+.newton-download-basket::before {
+	content: "\EA2A";
+}
+.newton-download::before {
+	content: "\EA2B";
+}
+.newton-drag::before {
+	content: "\EA2C";
+}
+.newton-edit::before {
+	content: "\EA2D";
+}
+.newton-email::before {
+	content: "\EA2E";
+}
+.newton-embed::before {
+	content: "\EA2F";
+}
+.newton-eps::before {
+	content: "\EA30";
+}
+.newton-ext::before {
+	content: "\EA31";
+}
+.newton-facebook-negative::before {
+	content: "\EA32";
+}
+.newton-facebook::before {
+	content: "\EA33";
+}
+.newton-facts-and-forecasts::before {
+	content: "\EA34";
+}
+.newton-fast-backward::before {
+	content: "\EA35";
+}
+.newton-fast-forward::before {
+	content: "\EA36";
+}
+.newton-fax::before {
+	content: "\EA37";
+}
+.newton-feature::before {
+	content: "\EA38";
+}
+.newton-file::before {
+	content: "\EA39";
+}
+.newton-files::before {
+	content: "\EA3A";
+}
+.newton-filter::before {
+	content: "\EA3B";
+}
+.newton-footage::before {
+	content: "\EA3C";
+}
+.newton-forum::before {
+	content: "\EA3D";
+}
+.newton-fullscreen::before {
+	content: "\EA3E";
+}
+.newton-gif::before {
+	content: "\EA3F";
+}
+.newton-glassdoor-negative::before {
+	content: "\EA40";
+}
+.newton-glassdoor::before {
+	content: "\EA41";
+}
+.newton-globe::before {
+	content: "\EA42";
+}
+.newton-glossary::before {
+	content: "\EA43";
+}
+.newton-google-negative::before {
+	content: "\EA44";
+}
+.newton-google::before {
+	content: "\EA45";
+}
+.newton-home::before {
+	content: "\EA46";
+}
+.newton-infographic::before {
+	content: "\EA47";
+}
+.newton-information-package::before {
+	content: "\EA48";
+}
+.newton-information::before {
+	content: "\EA49";
+}
+.newton-instagram-negative::before {
+	content: "\EA4A";
+}
+.newton-instagram::before {
+	content: "\EA4B";
+}
+.newton-investor-relations::before {
+	content: "\EA4C";
+}
+.newton-jpg::before {
+	content: "\EA4D";
+}
+.newton-legal-notice::before {
+	content: "\EA4E";
+}
+.newton-level-up::before {
+	content: "\EA4F";
+}
+.newton-linkedin-negative::before {
+	content: "\EA50";
+}
+.newton-linkedin::before {
+	content: "\EA51";
+}
+.newton-list-view::before {
+	content: "\EA52";
+}
+.newton-location-pin::before {
+	content: "\EA53";
+}
+.newton-log-in::before {
+	content: "\EA54";
+}
+.newton-log-out::before {
+	content: "\EA55";
+}
+.newton-menu::before {
+	content: "\EA56";
+}
+.newton-minus::before {
+	content: "\EA57";
+}
+.newton-more::before {
+	content: "\EA58";
+}
+.newton-mov::before {
+	content: "\EA59";
+}
+.newton-mp3::before {
+	content: "\EA5A";
+}
+.newton-mp4::before {
+	content: "\EA5B";
+}
+.newton-navigation-gyroscope::before {
+	content: "\EA5C";
+}
+.newton-navigation-mouse::before {
+	content: "\EA5D";
+}
+.newton-newton_product-catalogue::before {
+	content: "\EA5E";
+}
+.newton-outline::before {
+	content: "\EA5F";
+}
+.newton-pause::before {
+	content: "\EA60";
+}
+.newton-pdf::before {
+	content: "\EA61";
+}
+.newton-phone::before {
+	content: "\EA62";
+}
+.newton-picture-set::before {
+	content: "\EA63";
+}
+.newton-picture::before {
+	content: "\EA64";
+}
+.newton-play::before {
+	content: "\EA65";
+}
+.newton-plus::before {
+	content: "\EA66";
+}
+.newton-png::before {
+	content: "\EA67";
+}
+.newton-ppt::before {
+	content: "\EA68";
+}
+.newton-presentation::before {
+	content: "\EA69";
+}
+.newton-press-release::before {
+	content: "\EA6A";
+}
+.newton-press::before {
+	content: "\EA6B";
+}
+.newton-print::before {
+	content: "\EA6C";
+}
+.newton-question::before {
+	content: "\EA6D";
+}
+.newton-quotation::before {
+	content: "\EA6E";
+}
+.newton-rating::before {
+	content: "\EA6F";
+}
+.newton-rectification::before {
+	content: "\EA70";
+}
+.newton-region::before {
+	content: "\EA71";
+}
+.newton-renren-negative::before {
+	content: "\EA72";
+}
+.newton-renren::before {
+	content: "\EA73";
+}
+.newton-replay::before {
+	content: "\EA74";
+}
+.newton-rss::before {
+	content: "\EA75";
+}
+.newton-scaling::before {
+	content: "\EA76";
+}
+.newton-search::before {
+	content: "\EA77";
+}
+.newton-service::before {
+	content: "\EA78";
+}
+.newton-settings::before {
+	content: "\EA79";
+}
+.newton-share-ios::before {
+	content: "\EA7A";
+}
+.newton-share-newton-android::before {
+	content: "\EA7B";
+}
+.newton-shopping-cart::before {
+	content: "\EA7C";
+}
+.newton-show-location::before {
+	content: "\EA7D";
+}
+.newton-shuffle::before {
+	content: "\EA7E";
+}
+.newton-single-arrow-backward::before {
+	content: "\EA7F";
+}
+.newton-single-arrow-down::before {
+	content: "\EA80";
+}
+.newton-single-arrow-forward::before {
+	content: "\EA81";
+}
+.newton-single-arrow-up::before {
+	content: "\EA82";
+}
+.newton-skip-backward::before {
+	content: "\EA83";
+}
+.newton-skip-forward::before {
+	content: "\EA84";
+}
+.newton-slider::before {
+	content: "\EA85";
+}
+.newton-slideshow::before {
+	content: "\EA86";
+}
+.newton-social-feed::before {
+	content: "\EA87";
+}
+.newton-stop::before {
+	content: "\EA88";
+}
+.newton-subscribe::before {
+	content: "\EA89";
+}
+.newton-support::before {
+	content: "\EA8A";
+}
+.newton-theenergyblog-negative::before {
+	content: "\EA8B";
+}
+.newton-theenergyblog::before {
+	content: "\EA8C";
+}
+.newton-tickets::before {
+	content: "\EA8D";
+}
+.newton-tif::before {
+	content: "\EA8E";
+}
+.newton-tile-view::before {
+	content: "\EA8F";
+}
+.newton-trade-fair::before {
+	content: "\EA90";
+}
+.newton-tumblr-negative::before {
+	content: "\EA91";
+}
+.newton-tumblr::before {
+	content: "\EA92";
+}
+.newton-twitter-negative::before {
+	content: "\EA93";
+}
+.newton-twitter::before {
+	content: "\EA94";
+}
+.newton-user-account::before {
+	content: "\EA95";
+}
+.newton-vcf::before {
+	content: "\EA96";
+}
+.newton-video-chat::before {
+	content: "\EA97";
+}
+.newton-videos::before {
+	content: "\EA98";
+}
+.newton-warning::before {
+	content: "\EA99";
+}
+.newton-webcast::before {
+	content: "\EA9A";
+}
+.newton-webinar::before {
+	content: "\EA9B";
+}
+.newton-weibo-negative::before {
+	content: "\EA9C";
+}
+.newton-weibo::before {
+	content: "\EA9D";
+}
+.newton-weixin-negative::before {
+	content: "\EA9E";
+}
+.newton-weixin::before {
+	content: "\EA9F";
+}
+.newton-windows-app-store::before {
+	content: "\EAA0";
+}
+.newton-xls::before {
+	content: "\EAA1";
+}
+.newton-youku-negative::before {
+	content: "\EAA2";
+}
+.newton-youku::before {
+	content: "\EAA3";
+}
+.newton-youtube-negative::before {
+	content: "\EAA4";
+}
+.newton-youtube::before {
+	content: "\EAA5";
+}
+.newton-zip::before {
+	content: "\EAA6";
+}
+.newton-zoom::before {
+	content: "\EAA7";
+}

@@ -1,0 +1,54 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AM Material Database</title>
+
+    {% include 'base/styles.html' %}
+    {% include 'base/ie_support.html' %}
+
+    {% block extra_styles %}{% endblock %}
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="banner">
+        <a target="_blank" href="https://siemens.com"> 
+            <img src="{% static 'img/siemenslogo.jpg' %}" width="150px" height="75px" alt="banner"/> 
+        </a>
+    </div>
+    <div  style="margin-top:-0.5cm" class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        {% block navbar %}{% endblock %}
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        {% block body %}{% endblock %}
+    </div>
+</div>
+
+{% include 'base/footer.html' %}
+
+{% block popups %}{% endblock %}
+
+{% include 'base/scripts.html' %}
+{% block extra_scripts %}{% endblock %}
+</body>
+</html>

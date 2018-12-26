@@ -1,0 +1,6 @@
+$source activate ammd16env
+$mongod --config Programs/AMMD-1.6.1/code/conf/mongodb.conf
+$python manage.py runserver
+($sudo fuser -k 8000/tcp)
+
+

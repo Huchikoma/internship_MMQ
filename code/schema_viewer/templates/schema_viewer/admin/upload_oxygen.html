@@ -1,0 +1,53 @@
+{% extends 'base_admin.html' %}
+{% load staticfiles %}
+
+
+{% block content %}
+    <h1 class="page-header">Upload oxygen zip file</h1>
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                    {% if message.tags == 'debug' %}
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-bug"></i> {{message}}
+                        </div>
+                    {% elif message.tags == 'info' %}
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-info"></i> {{message}}
+                        </div>
+                    {% elif message.tags == 'success' %}
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-check"></i> {{message}}
+                        </div>
+                    {% elif message.tags == 'warning' %}
+                        <div class="alert alert-warning">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-exclamation-triangle"></i> {{message}}
+                        </div>
+                    {% elif message.tags == 'error' %}
+                        <div class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <i class="fa fa-times"></i> {{message}}
+                        </div>
+                    {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if message.tags != 'info' %}
+        <div class="row">
+            <p>
+                Select the schema you would like to associate to your oxygen documentation.<br/>
+                Then select the zip file containing all the documentation files.<br/>
+                Finally click on the upload button.
+            </p>
+        </div>
+        <form id="form_upload_oxygen" enctype="multipart/form-data" method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="btn btn-default" data-btn-text="Upload">Upload</button>
+        </form>
+    {% endif %}
+{% endblock %}

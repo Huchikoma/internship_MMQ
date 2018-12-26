@@ -1,0 +1,27 @@
+{% extends 'base_main.html' %}
+{% load staticfiles %}
+{% block extra_styles %}
+
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.css">
+    <style>.tb-no-boder tbody tr td{ border-top-color: transparent !important; }</style>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery-1.12.4.js"></script>
+    <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.js"></script>
+    {{the_script1|safe}}
+    {{the_script2|safe}}
+{% endblock %}
+  
+{% block body %}
+<div style="padding-left: 170px; padding-top: 50px" >
+  <button id="draw_action" onclick="window.location.replace('pattern');" class="btn btn-primary" style="margin-right: 100px; width: 200px; height: 160px; font-size: 20px; color: black"> Quantitative Analysis</button>
+  <button onclick="window.location.replace('pattern1')" class="btn btn-primary" style="margin-right: 100px; width: 200px; height: 160px; font-size: 20px; color: black">
+  Process-Property</button>
+  <button onclick="window.location.replace('pattern')" class="btn btn-primary" style="margin-right: 100px; width: 200px; height: 160px; font-size: 20px; color: black">Structure-Property</button>
+  <button onclick="window.location.replace('pattern')" class="btn btn-primary" style="margin-right: 100px; width: 200px; height: 160px; font-size: 20px; color: black">Process-Structure</button>
+</div>
+{% endblock %}
+  
+</html>
