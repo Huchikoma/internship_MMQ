@@ -19,4 +19,4 @@ $mongod --config mongodb.conf
 
 $python manage.py runserver
 
-链接：https://github.com/usnistgov/MDCS
+开源项目链接：https://github.com/usnistgov/MDCS
